@@ -13,6 +13,10 @@
 		2EA1CFEA2C52123100A3A437 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA1CFE92C52123100A3A437 /* Preview Assets.xcassets */; };
 		2EA1CFF22C52131700A3A437 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1CFF12C52131700A3A437 /* APIModel.swift */; };
 		2EA1CFF52C52142100A3A437 /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1CFF42C52142100A3A437 /* APIServices.swift */; };
+		2EA1CFF72C6094FC00A3A437 /* PredictionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1CFF62C6094FC00A3A437 /* PredictionModel.swift */; };
+		2EA1CFFA2C60955D00A3A437 /* ImagePredictionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1CFF92C60955D00A3A437 /* ImagePredictionViewModel.swift */; };
+		2EA1CFFC2C60958A00A3A437 /* ImagePredictionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1CFFB2C60958A00A3A437 /* ImagePredictionView.swift */; };
+		2EA1CFFE2C609A3D00A3A437 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA1CFFD2C609A3D00A3A437 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		2EA1CFE92C52123100A3A437 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2EA1CFF12C52131700A3A437 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
 		2EA1CFF42C52142100A3A437 /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		2EA1CFF62C6094FC00A3A437 /* PredictionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionModel.swift; sourceTree = "<group>"; };
+		2EA1CFF92C60955D00A3A437 /* ImagePredictionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePredictionViewModel.swift; sourceTree = "<group>"; };
+		2EA1CFFB2C60958A00A3A437 /* ImagePredictionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePredictionView.swift; sourceTree = "<group>"; };
+		2EA1CFFD2C609A3D00A3A437 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,9 @@
 			children = (
 				2EA1CFE22C52123000A3A437 /* INDODOCSApp.swift */,
 				2EA1CFE42C52123000A3A437 /* ContentView.swift */,
+				2EA1CFFB2C60958A00A3A437 /* ImagePredictionView.swift */,
+				2EA1CFFD2C609A3D00A3A437 /* ImagePicker.swift */,
+				2EA1CFF82C60953B00A3A437 /* ViewModels */,
 				2EA1CFF32C52132300A3A437 /* Utils */,
 				2EA1CFF02C5212FC00A3A437 /* Models */,
 				2EA1CFE62C52123100A3A437 /* Assets.xcassets */,
@@ -77,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				2EA1CFF12C52131700A3A437 /* APIModel.swift */,
+				2EA1CFF62C6094FC00A3A437 /* PredictionModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -87,6 +99,14 @@
 				2EA1CFF42C52142100A3A437 /* APIServices.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		2EA1CFF82C60953B00A3A437 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2EA1CFF92C60955D00A3A437 /* ImagePredictionViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,9 +179,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EA1CFF72C6094FC00A3A437 /* PredictionModel.swift in Sources */,
 				2EA1CFE52C52123000A3A437 /* ContentView.swift in Sources */,
 				2EA1CFF22C52131700A3A437 /* APIModel.swift in Sources */,
+				2EA1CFFA2C60955D00A3A437 /* ImagePredictionViewModel.swift in Sources */,
 				2EA1CFF52C52142100A3A437 /* APIServices.swift in Sources */,
+				2EA1CFFE2C609A3D00A3A437 /* ImagePicker.swift in Sources */,
+				2EA1CFFC2C60958A00A3A437 /* ImagePredictionView.swift in Sources */,
 				2EA1CFE32C52123000A3A437 /* INDODOCSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

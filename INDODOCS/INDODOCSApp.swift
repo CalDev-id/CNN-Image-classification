@@ -11,7 +11,8 @@ import SwiftUI
 struct INDODOCSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            ContentView2()
         }
     }
 }
